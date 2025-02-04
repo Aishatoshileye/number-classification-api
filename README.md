@@ -1,10 +1,3 @@
-# number-classification-api 🚀
-
-- Determines if a number is prime, perfect, or Armstrong.
-- Checks if the number is even or odd.
-- Returns the sum of its digits.
-- Fetches a fun fact from Numbers API.
-
 # Number Classification API 🚀
 
 A simple API built with **FastAPI** that takes an integer as input and returns interesting mathematical properties about the number along with a fun fact from the Numbers API.
@@ -17,8 +10,8 @@ A simple API built with **FastAPI** that takes an integer as input and returns i
 - [Deployment](#deployment)
 - [License](#license)
 
-Features
-- **Mathematical Analysis:**  
+ Features
+- Mathematical Analysis: 
   - Checks if the number is **prime**.
   - Determines if the number is **perfect**.
   - Verifies if the number is an **Armstrong number**.
@@ -32,7 +25,8 @@ Features
   - Returns responses in a well-defined JSON format.
 
 Installation
- Prerequisites
+
+Prerequisites
 - Python 3.8+
 - Git
 
@@ -40,8 +34,5 @@ Steps
 
 1. **Clone the repository:**
    ```bash
-
-git clone https://github.com/aishatoshileye/number-classification-api.git
-cd number-classification-api
-pip install -r requirements.txt
-uvicorn main:app --reload
+   git clone https://github.com/aishatoshileye/number-classification-api.git
+   cd number-classification-api
