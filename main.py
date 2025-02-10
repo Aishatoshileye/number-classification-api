@@ -68,4 +68,4 @@ def classify_number(
 
 @app.get("/")
 def home():
-    return {"message": "Welcome to the Number Classification API!"}
+    return { "Welcome to the Number Classification API!"}
